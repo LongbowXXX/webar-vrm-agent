@@ -38,7 +38,7 @@ This project is built as a monorepo using **pnpm workspaces** and **Turborepo** 
    ```
 
    > **Note on Mobile Testing**: If you wish to test the AR capabilities on a physical device, run the app with the `--host` flag to expose it on your local network:
-   > `pnpm run dev --filter web-ar-app -- --host`
+   > `pnpm --filter web-ar-app run dev --host`
 
 4. **Initialize Providers**:
    Once the site is loaded, input your Gemini API Key and your VoiceVox Engine URL (e.g. `http://localhost:50021` or your PC's local IP address if testing from mobile).
