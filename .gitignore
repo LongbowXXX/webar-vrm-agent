@@ -37,3 +37,7 @@ dist-ssr
 
 # App specific
 apps/**/public/models/*.vrm
+
+# Firebase
+.firebaserc
+.firebase/*
